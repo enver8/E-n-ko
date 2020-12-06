@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.pre-header {
+    background-color: #97cbd4;
+    height: 50px;
+    color: #fff;
+    padding-top: 12px;
+}
+
+.pre-header .secondary-menu {
+    list-style: none;
+}
+
+.pre-header .secondary-menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.pre-header .secondary-menu li a {
+    color: #556c86;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-nav{
+    background-color: #fff;
+}    
+
+.main-nav .main-menu {
+    list-style: none;
+    margin-top:40px ;
+}
+
+.main-nav .main-menu li {
+    display: inline-block;
+    margin-left:15px ;
+}
+
+.main-nav .main-menu li a {
+    color: rgb(99, 89, 88);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-cta-btn {
+    background-color:#a0c9a8;
+    border: 1 px solid #0a7e0a;
+    padding: 10 px;
+    transition: 0.5s;
+    color: #fff;
+} 
+    
+.main-cta-btn:hover {
+    color: #349e34 ;
+    background-color: transparent;
+    text-decoration: none;
+}
+.main-nav img {
+    margin-top : 5px;
+}
+
+.hero-section {
+    background-image: url(../images/pozadina.jpg);
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 459px;
+    
+}
+    .hero-section h1 {
+    color: rgb(45, 72, 131);
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+
+.hero-section p {
+    color:rgb(231, 231, 231);
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 95px;
+    margin-bottom: 5px
+}
+
+.hero-section a {
+    background-color:rgb(14, 73, 19);
+    border: 1 px solid rgb(14, 73, 19);
+    padding: 10 px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s ;
+    display: inline-block;
+}
+
+#vlasic {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#vlasic h3 {
+    text-align: center;
+    color: rgb(14, 73, 19);
+
+}
+
+#vlasic h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+
+
+}
+
+#vlasic p {
+    text-align: center;
+    font-size: 17px;
+    padding: 20px;
+
+}
+
+#vlasic .vlasic-item {
+    background-color: #29c543;
+    -webkit-box-shadow: 0 0 18px 7px rgb(0, 0, 0); 
+    -moz-box-shadow: 0 0 18px 7px rgb(0, 0, 0);
+    box-shadow: 0 0 18px 7px rgb(0, 0, 0);
+    margin-top: 40px;
+}
+
+#vlasic .vlasic-item:hover {
+    margin-top: -12px;
+   
+}
+
+#o-nama {
+    background-image: url("../images/pozadina-o-nama.jpg");
+    background-size: cover;
+    text-align:center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: rgb(0, 0, 0)     
+}
+
+#o-nama h3 {
+    color: rgb(14, 73, 19);
+}
+
+#o-nama h2 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(41, 36, 36);
+}
+#o-nama p {
+    font-size: 17px;
+    padding: 20px;
+    color: black  
+}
+
+
+
+#o-nama .o-nama-item {
+    background-color: none;
+    -webkit-box-shadow: 0 0 18px 7px rgb(0, 0, 0); 
+    -moz-box-shadow: 0 0 18px 7px rgb(0, 0, 0);
+    box-shadow: 0 0 18px 7px rgb(0, 0, 0);
+    margin-top: 40px;
+}     
+
+#smjestaj {
+    text-align: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: rgb(0, 0, 0)     
+}
+
+#smjestaj h3 {
+    color: rgb(14, 73, 19);
+}
+
+#smjestaj h2 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(41, 36, 36);
+}
+#smjestaj p {
+    padding: 20px;
+
+}
+
+#smjestaj .smjestaj-item {
+    background-color: none;
+    -webkit-box-shadow: 0 0 18px 7px rgb(0, 0, 0); 
+    -moz-box-shadow: 0 0 18px 7px rgb(0, 0, 0);
+    box-shadow: 0 0 18px 7px rgb(0, 0, 0);
+    margin-top: 40px;
+}  
+
+#gastronomija {
+    background-image: url("../images/pozadina-gast.jpg");
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+
+
+
+#gastronomija h3 {
+    text-align: center;
+    color: rgb(18, 49, 21);
+}
+
+#gastronomija h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(136, 93, 59);
+}
+
+#gastronomija h2 {
+    font-size: 25px;
+    padding-top: 30px;
+    font-weight: bold;
+    color: rgb(199, 173, 140);
+}
+#gastronomija p {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    font-weight: bold ;
+    color: rgb(26, 68, 39);
+  
+}
+#gastronomija li{
+   margin: 10px;
+}
+
+#gastronomija ul{
+    margin-left: 33px;
+    list-style: none;
+    font-size: 21px;
+    padding: 1px;
+    font-weight: bold;
+    color: rgb(199, 173, 140)
+}
+
+#gastronomija li:before{
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #979795;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: -3px;
+}
+
+#gastronomija .ponuda-item{
+    background-color: none;
+    -webkit-box-shadow: 0 0 18px 7px rgb(0, 0, 0); 
+    -moz-box-shadow: 0 0 18px 7px rgb(0, 0, 0);
+    box-shadow: 0 0 18px 7px rgb(0, 0, 0);
+    margin-top: 40px;
+}
+
+#galerija{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: rgb(168, 168, 240);
+}
+
+#galerija .galerija-item{
+    -webkit-box-shadow: 0 0 18px 7px rgb(13, 45, 51); 
+    -moz-box-shadow: 0 0 18px 7px rgb(13, 45, 51);
+    box-shadow: 0 0 18px 7px rgb(13, 45, 51);
+    margin-top: 40px;
+ 
+
+}
+#galerija h1 {
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(44, 58, 122);
+}
+#galerija p {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    color: rgb(59, 73, 136);
+}
+
+#kontakt{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: rgb(168, 168, 240);
+}
+
+
+#kontakt h3 {
+    background-color: rgb(58, 67, 116);
+    color: rgb(190, 207, 203);
+    
+    
+}
+
+
+
+{}
