@@ -62,7 +62,7 @@
     margin-top : 5px;
 }
 
-.hero-section {
+#pocetna {
     background-image: url(../images/pozadina.jpg);
     position: relative;
     opacity: 0.90;
@@ -73,7 +73,7 @@
     padding-bottom: 459px;
     
 }
-    .hero-section h1 {
+#pocetna h1 {
     color: rgb(45, 72, 131);
     text-transform: uppercase;
     font-size: 60px;
@@ -81,7 +81,7 @@
 }
 
 
-.hero-section p {
+#pocetna p {
     color:rgb(231, 231, 231);
     font-size: 25px;
     font-weight: bold;
@@ -89,7 +89,7 @@
     margin-bottom: 5px
 }
 
-.hero-section a {
+#pocetna a {
     background-color:rgb(14, 73, 19);
     border: 1 px solid rgb(14, 73, 19);
     padding: 10 px;
